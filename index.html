@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Style-->
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link href="./animate.min.css" rel="stylesheet">
+   	<link href="./bootstrap.min.css" rel="stylesheet">
+   	<link href="./style.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Title -->
+    <title>Neuro poster</title>
+</head>
+<body data-bs-spy="scroll">
+    <!--Back to top button-->
+	<button onclick="topFunction()" id="btn-top" title="Go to top"></button>
+
+    <!--Navbar: START-->
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <article class="gradient text-center">Neuro Poster</article>
+            </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="48px" height="48px" fill-rule="nonzero"><defs><linearGradient x1="32" y1="5.333" x2="32" y2="59.867" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#fd4a81"/><stop offset="1" stop-color="#ff8662"/></linearGradient><linearGradient x1="32" y1="5.333" x2="32" y2="59.867" gradientUnits="userSpaceOnUse" id="color-2"><stop offset="0" stop-color="#fd4a81"/><stop offset="1" stop-color="#ff8662"/></linearGradient><linearGradient x1="32" y1="21.5" x2="32" y2="26.336" gradientUnits="userSpaceOnUse" id="color-3"><stop offset="0" stop-color="#ff5e73"/><stop offset="1" stop-color="#fc9860"/></linearGradient><linearGradient x1="32" y1="29.333" x2="32" y2="34.5" gradientUnits="userSpaceOnUse" id="color-4"><stop offset="0" stop-color="#ff5e73"/><stop offset="1" stop-color="#fc9860"/></linearGradient><linearGradient x1="32" y1="37" x2="32" y2="41.337" gradientUnits="userSpaceOnUse" id="color-5"><stop offset="0" stop-color="#ff5e73"/><stop offset="1" stop-color="#fc9860"/></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(4,4)"><path d="M32,58c-14.337,0 -26,-11.663 -26,-26c0,-14.337 11.663,-26 26,-26c14.337,0 26,11.663 26,26c0,14.337 -11.663,26 -26,26zM32,8c-13.233,0 -24,10.767 -24,24c0,13.233 10.767,24 24,24c13.233,0 24,-10.767 24,-24c0,-13.233 -10.767,-24 -24,-24z" fill="url(#color-1)"/><path d="M32,52c-11.028,0 -20,-8.972 -20,-20c0,-11.028 8.972,-20 20,-20c11.028,0 20,8.972 20,20c0,11.028 -8.972,20 -20,20zM32,14c-9.925,0 -18,8.075 -18,18c0,9.925 8.075,18 18,18c9.925,0 18,-8.075 18,-18c0,-9.925 -8.075,-18 -18,-18z" fill="url(#color-2)"/><path d="M42,25c0,0.552 -0.448,1 -1,1h-18c-0.552,0 -1,-0.448 -1,-1v-2c0,-0.552 0.448,-1 1,-1h18c0.552,0 1,0.448 1,1z" fill="url(#color-3)"/><path d="M42,33c0,0.552 -0.448,1 -1,1h-18c-0.552,0 -1,-0.448 -1,-1v-2c0,-0.552 0.448,-1 1,-1h18c0.552,0 1,0.448 1,1z" fill="url(#color-4)"/><path d="M42,41c0,0.552 -0.448,1 -1,1h-18c-0.552,0 -1,-0.448 -1,-1v-2c0,-0.552 0.448,-1 1,-1h18c0.552,0 1,0.448 1,1z" fill="url(#color-5)"/></g></g></svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto navbar-center">
+                    <li class="nav-item pe-3">
+                        <a href="#" class="nav-link">Возможности</a>
+                    </li>
+                    <li class="nav-item pe-3">
+                        <a href="#" class="nav-link">Цены</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-none d-md-block sign-in" href="#">Вход</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar: END-->
+
+    <!--Header: START-->
+    <section class="section bg-home" style="overflow: hidden;">
+        <div class="bg-overlay"></div>
+        <div class="home-center">
+            <div class="home-desc-center">
+                <div class="container">
+                    <div class="row vertical-content">
+                        <div class="col-lg-7">
+                            <div class="home-content">
+                                <h6 class="cssanimation leDoorCloseLeft sequence">Автоматизация • Простота • Безопасность</h6>
+                                <div class="home-title mt-3">
+                                <span class="cssanimation blurIn">Одно приложение</span><span class="cssanimation leBlurInRight sequence title-color ps-2 pe-2">для управления</span><span class="cssanimation blurIn">всеми</span><span class="cssanimation leBlurInRight sequence title-color ps-2 pe-2">Вашими каналами</span><span class="cssanimation blurIn">в Telegram</span></div>
+                                <p class="home-desc mt-5">получите безграничное преимущество перед остальными с экономией времени и ресурсов благодаря лёгкому использованию возможностей ИИ и технологий автопостинга</p>
+                                <div class="d-flex justify-content-center mt-5">
+                                    <button class="button-header" role="button"><span>Начать бесплатно</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="mt-4 wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-name: fadeInUp;">
+                                <img class="home-img" src="./home.png" alt="alt">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Header: END-->
+
+    <!--Section Steps: START-->
+    <section class="steps-section">
+        <div class="container">
+            <div class="steps-wrapper">
+                <div class="row g-4">
+                    <div class="offset-1 col-md-10">
+                        <div class="steps-right">
+                            <div class="shape-x"></div>
+                            <div class="shape-y"></div>
+                            <div class="steps-content">
+                                Cовременные технологии в несколько шагов
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 pt-4 mb-5 pb-2">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="steps-card-img bg-cover">
+                        <div class="content">
+                            <h3 class="pt-110">
+                                Наслаждайтесь автоматическим ведением канала<br>в Telegram
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".10s" style="visibility: visible; animation-delay: 0.10s; animation-name: fadeInLeft;">
+                    <div class="steps-card-items text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>  
+                        <div class="content">
+                            <h5><span class="steps-title">Подключите ваш Telegram канал<br></span></h5>
+                            <h5><span class="steps-desc">добавьте нашего бота в администраторы вашего канала</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <div class="steps-card-items text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelopes-bulk"></i>
+                        </div>
+                        <div class="content">
+                            <h5><span class="steps-title">Добавьте источники<br>контента<br></span></h5>
+                            <h5><span class="steps-desc">укажите каналы, откуда будет браться контент</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInLeft" data-wow-delay=".9s" style="visibility: visible; animation-delay: 0.9s; animation-name: fadeInLeft;">
+                    <div class="steps-card-items text-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <div class="content">
+                            <h5><span class="steps-title">Настройте параметры автопостинга<br></span></h5>
+                            <h5><span class="steps-desc">выберите частоту постов, фильтры и другие опции</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Steps: END-->
+
+    <!--Section Advantages: START-->
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages-area">
+                <div class="row d-flex align-items-center">
+                    <div class="figure-left col-lg-6">
+                        <figure class="apps-screen-img">
+                            <img src="./phone-11.png" class="wow fadeInRight" data-wow-delay=".8s" alt="Apps Craft Why Chose Image Screenshort" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;">
+                            <img src="./phone-22.png" class="wow fadeInRight" data-wow-delay=".4s" alt="Apps Craft Why Chose Image Screenshort" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                        </figure>
+                    </div>  
+                    <div class="col-lg-5 align-items-center">
+                        <div class="advantages-content">
+                            <h2 class="gradient fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Ключевые преимущества:</h2>
+                            <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">оцените новые возможности для ведения Вашего бизнеса</p>
+                            <div class="advantages-wrapper">
+                                <div class="advantages-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="advantages-ico">
+                                        <img src="./icon-1.png" alt="icon">
+                                    </div>
+                                    <div class="advantages-text">
+                                        <h6>Автоматический рерайт с помощью ИИ</h6>
+                                        <p>уникализируйте контент автоматически</p>
+                                    </div>
+                                </div>
+                                <div class="advantages-item wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                    <div class="advantages-ico">
+                                        <img src="./icon-4.png" alt="icon">
+                                    </div>
+                                    <div class="advantages-text">
+                                        <h6>Гибкие настройки публикаций</h6>
+                                        <p>настройте время и частоту постов</p>
+                                    </div>
+                                </div>
+                                <div class="advantages-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                    <div class="advantages-ico">
+                                        <img src="./icon-3.png" alt="icon">
+                                    </div>
+                                    <div class="advantages-text">
+                                        <h6>Защита контента и брендинг</h6>
+                                        <p>добавление водяных знаков и подписей</p>
+                                    </div>
+                                </div>
+                                <div class="advantages-item wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                                    <div class="advantages-ico">
+                                        <img src="./icon-2.png" alt="icon">
+                                    </div>
+                                    <div class="advantages-text">
+                                        <h6>Фильтрация рекламы и нежелательного контента</h6>
+                                        <p>автоматически удаляйте нежелательные посты</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Advantages: END-->
+    
+    <!--Section Offer: START-->
+    <section class="offer"> 
+        <div class="container">
+            <h3 class="pb-3 text-center title wow fadeInLeft" data-wow-delay=".2s" style="visibility: visible; animation-name: fadeInLeft;"><span class="black">Попробуйте</span> прямо сейчас!</h3>
+            <div class="row mt-5 mb-4">
+                <div class="offset-1 col-lg-7 pe-5 text-description wow fadeIn slow" data-wow-delay=".2s" style="visibility: visible; animation-name: fadeIn;">
+                    Зарегистрируйтесь через Telegram и начните пользоваться Neuro Poster совершенно бесплатно
+                </div>
+                <div class="col-lg-4 ps-5 wow flipInX" data-wow-delay=".8s" style="visibility: visible; animation-name: flipInX;">
+                    <button class="button-header" role="button"><span>Начать</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section Offer: END-->
+
+    <!--Footer: START-->
+    <footer class="footer footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 wow slideInUp" data-wow-delay=".2s" style="visibility: visible; animation-name: slideInUp;">
+                    <p class="footer-contact">Контактая информация:</p>
+                    <i class="ps-3 fa-brands fa-facebook"></i>
+                    <i class="ps-4 fa-brands fa-twitter"></i>
+                    <i class="ps-4 fa-brands fa-instagram"></i>
+                </div>
+                <div class="col-lg-3 wow slideInUp" data-wow-delay=".4s" style="visibility: visible; animation-name: slideInUp; padding: 0;">
+                    <a href="#">Условия использования</a><br>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="offset-5 col-lg-2 wow slideInUp" data-wow-delay=".6s" style="visibility: visible; animation-name: slideInUp;">
+                    <p class="footer-text">Neuro Poster<br>All Rights Reserved<br>© 2023-2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer: END-->
+
+
+    <!--
+    https://pixner.net/mosto/money-transfer/index.html#appStore
+    https://themeun.com/html/apps-craft/html/index-v18.html
+    https://bootstraptema.ru/_sf/64/6453.html
+    https://icons8.ru/icon/set/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B8/nolan
+    -->
+
+
+    <!--Basic scripts-->
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+    <script src="https://kit.fontawesome.com/97eb1c096b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <!--Script navbar sticky in up-->
+    <script>
+        function windowScroll() {
+            const navbar = document.getElementById("navbar");
+            if (
+                document.body.scrollTop >= 50 ||
+                document.documentElement.scrollTop >= 50
+            ) {
+                navbar.classList.add("nav-sticky");
+            } else {
+                navbar.classList.remove("nav-sticky");
+            }
+        }
+            
+        window.addEventListener('scroll', (ev) => {
+            ev.preventDefault();
+            windowScroll();
+        })
+    </script>
+
+    <!--Script back to top-->
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction(){
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("btn-top").style.display = "block";
+        } else {
+        document.getElementById("btn-top").style.display = "none";
+        }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
+    <!--Script enabling animation-->
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
